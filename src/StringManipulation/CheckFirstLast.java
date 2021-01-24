@@ -1,4 +1,4 @@
-package practiceDigital;
+package StringManipulation;
 import java.util.*;
 public class CheckFirstLast {
 

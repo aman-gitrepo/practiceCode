@@ -1,4 +1,4 @@
-package practiceDigital;
+package StringManipulation;
 import java.util.*;
 public class replaceLetter {
 	public static void main(String []args) {

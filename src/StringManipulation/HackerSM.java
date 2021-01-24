@@ -1,4 +1,4 @@
-package practiceDigital;
+package StringManipulation;
 
 public class HackerSM {
 

@@ -10,6 +10,7 @@ public class HackerRankGradeRoundOff {
 	}
 
 	private List<Integer> roundOff(List<Integer> grades) {
+		return grades;
 
 //	    List<Integer> rog = new ArrayList(); 
 //	    for(int i=0;i<grades.size();i++){
