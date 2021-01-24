@@ -1,6 +1,7 @@
 package practiceDigital;
 import java.util.*;
 import java.util.Map.Entry;
+
 public class HashMapLearnOne {
 
 	public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class HashMapLearnOne {
 			}
 			else
 			map.put(mapKey,1);
-		}
+		} 
 		}
 	System.out.println(map);
 	Iterator<Entry<String,Integer>> en = map.entrySet().iterator();
