@@ -1,7 +1,6 @@
 package StringManipulation;
 
-public class CharMatrix {
-
+public class CharMatrix {	
 	public static void main(String[] args) {
 		{ 
 	        String str="chill out";
@@ -14,20 +13,20 @@ public class CharMatrix {
 	        { 
 	            row = column; 
 	        } 
-	  
 	        char s[][] = new char[row][column]; 
-	          
+
 	        // convert the string into grid 
 	        for (int i = 0; i < row; i++)  
 	        { 
 	            for (int j = 0; j < column; j++)  
 	            { 
-	                if(k < str.length()) 
-	                    s[i][j] = str.charAt(k); 
+	                if(k < str.length())  
+	                System.out.print(i+""+j);
 	                k++; 
 	            } 
-	        } 
-	  
+	        }
+	        
+	        
 	        // Printing the grid 
 	        for (int i = 0; i < row; i++)  
 	        { 
@@ -43,5 +42,4 @@ public class CharMatrix {
 	        } 
 	    } 
 	}
-
 }

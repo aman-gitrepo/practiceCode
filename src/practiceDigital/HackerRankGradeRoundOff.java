@@ -10,15 +10,15 @@ public class HackerRankGradeRoundOff {
 	}
 
 	private List<Integer> roundOff(List<Integer> grades) {
-		return grades;
-
-//	    List<Integer> rog = new ArrayList(); 
-//	    for(int i=0;i<grades.size();i++){
-//	    int grade=grades.get(i);
-//	    rog.add((grade < 38 || grade % 5 < 3 ? grade : grade + (5 - (grade % 5))));
-//	    }       
-//	    
-//	    return (rog);
+	    
+		List<Integer> rog = new ArrayList(); 
+	    
+	    for(int i=0;i<grades.size();i++){
+	    int grade=grades.get(i);
+	    rog.add((grade < 38 || grade % 5 < 3 ? grade : grade + (5 - (grade % 5))));
+	    }       
+	    
+	    return (rog);
 		
 //		List<Integer> rog = new ArrayList<Integer>();
 //		if (grades.size() <= 100 && grades.size() > 0) {

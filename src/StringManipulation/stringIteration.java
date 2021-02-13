@@ -16,6 +16,7 @@ public class stringIteration {
 			}
 
 		}
+		
 		for(int i =str1.length()-1;i>=0;i--) {
 			if (str1.charAt(i)==' ') {
 				name = (name+str1.substring(i+1));

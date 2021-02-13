@@ -17,12 +17,11 @@ public class CheckFirstLast {
 		}
 
 		System.out.println(b);
-		s.close();
-
+		
+		
+		
 		// To Check if word is present in given string
-
 //		System.out.println("enter  string");
-//
 //		Scanner n = new Scanner(System.in);
 //		String str = n.nextLine();
 //		boolean check = str.contains("help");
@@ -35,7 +34,7 @@ public class CheckFirstLast {
 		String str = n.nextLine();
 		int len = str.length();
 		System.out.println(len);
-		for (int i = 0; i < len; i++) {
+		for (int i = len; i <0 ; i++) {
 			if (str.charAt(i) == 'a') {
 				System.out.println("char first found at" + i);
 				break;
@@ -44,5 +43,4 @@ public class CheckFirstLast {
 		System.out.println(str.lastIndexOf('a'));
 
 	}
-
 }

@@ -7,6 +7,7 @@ public class FloorCeil {
 		int a=96;
 		int b=67;
 		System.out.println(Math.floorDiv(a, 5) * 5);
+		
 		System.out.println((Math.floorDiv(b, 5) * 5)+5);
 		
 	}
