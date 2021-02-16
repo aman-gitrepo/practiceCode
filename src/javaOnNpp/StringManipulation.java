@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class StringManipulation{
 	
@@ -9,6 +9,7 @@ public class StringManipulation{
 			System.out.println("2. for string related functions");
 			System.out.printf("3. for seeing diff in Integer and int \n");
 			System.out.printf("4. for conversion back and fourth to char array and string\n");
+			System.out.printf("5. String transformations\n");
 		int a = sc.nextInt();
 		
 		if(a == 1){
@@ -95,5 +96,20 @@ public class StringManipulation{
 			System.out.println(carr_s);
 			System.out.println("output using string builder :\n"+ carrstringbuilder);
 		}
+ 
+		if(a == 5){
+			String first = "mark";
+			String second = "kram";
+			char[] farr = (first.toLowerCase()).toCharArray();
+			char[] sarr = (second.toLowerCase()).toCharArray();
+			
+			Arrays.sort(farr);
+			Arrays.sort(sarr);
+			
+			if(Arrays.equals(farr, sarr))
+				System.out.printf("isAnagram");
+			
+		}
+ 
  }
 }
